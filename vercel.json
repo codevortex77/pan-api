@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/pan",
+      "dest": "/api/pan.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/pan.js"
+    }
+  ]
+}
