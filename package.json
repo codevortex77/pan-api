@@ -1,0 +1,16 @@
+{
+  "name": "pan-verification-api",
+  "version": "1.0.0",
+  "description": "PAN Card Verification API",
+  "main": "api/pan.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
